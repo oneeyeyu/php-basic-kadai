@@ -25,12 +25,12 @@
             echo '<br>';         
          class Animal{
          private $name;
-         private $weght;
          private $height;
-         public function __construct(string $name, int $weght, int $height){
+         private $weight;
+         public function __construct(string $name, int $height, int $weight){
             $this->name = $name;
-            $this->weght = $weght;
             $this->height = $height;
+            $this->weight = $weight;
          }
          public function show_height(){
             echo $this->height . '<br>';
@@ -45,4 +45,3 @@
    </p> 
 </body>
 </html>
-
